@@ -16,5 +16,6 @@ then `javac factorial.java`
 
 ## Use
 
-`$ java factorial`
+`java factorial`
 
+Then, in the interactive version, enter positive integers and press enter. In the non-interactive version, a table will appear, as if written by an unseen hand.
