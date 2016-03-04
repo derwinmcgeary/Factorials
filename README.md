@@ -6,15 +6,17 @@ This is a repo demonstrating recursive calculation of factorials.
 
 `git clone https://github.com/derwinmcgeary/Factorials.git`
 
+`cd Factorials`
+
 `javac factorial.java`
 
-To see the other version (factorials up to 20), do
+That will get you the interactive version. To see the non-interactive version (factorials up to 20), check out the "feature" branch with
 
 `git checkout feature`
 
 then `javac factorial.java`
 
-## Use
+## Usage
 
 `java factorial`
 
