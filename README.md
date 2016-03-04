@@ -2,22 +2,41 @@
 
 This is a repo demonstrating recursive calculation of factorials.
 
-## Build
+## Interactive Version
 
-`git clone https://github.com/derwinmcgeary/Factorials.git`
+### Build
 
-`cd Factorials`
+1. `git clone https://github.com/derwinmcgeary/Factorials.git`
 
-`javac factorial.java`
+1. `cd Factorials`
 
-That will get you the interactive version. To see the non-interactive version (factorials up to 20), check out the "feature" branch with
+1. `git checkout master`
 
-`git checkout feature`
+1. `javac factorial.java`
 
-then `javac factorial.java`
-
-## Usage
+### Usage
 
 `java factorial`
 
-Then, in the interactive version, enter positive integers and press enter. In the non-interactive version, a table will appear, as if written by an unseen hand.
+Enter positive integers and press enter. Ctrl-C to quit.
+
+## Non-interactive version
+
+### Build
+
+If you've already cloned and you're in the directory, skip steps 1 and 2
+
+1. `git clone https://github.com/derwinmcgeary/Factorials.git`
+
+1. `cd Factorials`
+
+1. `git checkout feature`
+
+1. `javac factorial.java`
+
+
+### Usage
+
+`java factorial`
+
+A table will appear, as if written by an unseen hand.
