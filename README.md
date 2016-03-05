@@ -10,7 +10,7 @@ This is a repo demonstrating recursive calculation of factorials.
 
 1. `cd Factorials`
 
-1. `git checkout master`
+1. `git checkout master` (you can skip this the first time you clone the repo)
 
 1. `javac factorial.java`
 
